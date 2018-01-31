@@ -5,6 +5,9 @@ import { Market } from './entity/Market';
 import { Connection } from 'typeorm/connection/Connection';
 import * as Koa from 'koa';
 import { routes } from './routes';
+import { Event } from './entity/Event';
+import { EventAttendee } from './entity/EventAttendee';
+import { ExtLocation } from './entity/ExtLocation';
 
 
 (async () => {
@@ -22,6 +25,9 @@ import { routes } from './routes';
     entities: [
       Market,
       Location,
+      Event,
+      EventAttendee,
+      ExtLocation
     ]
   });
 
@@ -29,7 +35,7 @@ import { routes } from './routes';
   app
       .use(routes.routes())
       .use(routes.allowedMethods())
-      .listen(3000);
+      .listen(4000);
 
 })();
 

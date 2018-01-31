@@ -14,6 +14,7 @@ export const routes = new Router();
 const apiEntrypointPath = '/graphql';
 const graphQlOpts = graphqlKoa({
     schema,
+    context: {msg: 'hello context'}
 });
 
 routes.get(apiEntrypointPath, graphQlOpts);
