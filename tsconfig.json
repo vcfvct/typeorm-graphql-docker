@@ -7,7 +7,7 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "sourceMap": true,
-    "lib": ["ES2017"],
+    "lib": ["ES2017", "esnext.asynciterable"],
     "outDir": "dist",
     "baseUrl": ".",
     "paths": {

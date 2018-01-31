@@ -23,9 +23,9 @@ const schemaDefinition = `
     }
 `;
 
-const Mutation = `type Mutation {
+// const Mutation = `type Mutation {
 
-}`
+// }`
 const typeDefs = [
   schemaDefinition,
   Query,
