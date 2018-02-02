@@ -15,5 +15,5 @@ RUN yarn config set "strict-ssl" false && yarn
 COPY . .
 # expose port 4000 so it can be mapped by docker daemon
 EXPOSE 4000 9229
-# dev, watch moe
-CMD [ "yarn", "start:watch" ]
+# default,  prod
+CMD [ "yarn", "start:prod" ]

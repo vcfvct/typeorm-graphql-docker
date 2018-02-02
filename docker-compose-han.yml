@@ -1,0 +1,11 @@
+version: '3'
+services:
+  api:
+    image: han/typeorm-graphql:1.0.2
+    container_name: gq
+    command: yarn start:watch
+    volumes:
+      - ./src:/esa-app/src
+    ports:
+     - "4000:4000"
+     - "9229:9229"
