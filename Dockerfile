@@ -14,6 +14,6 @@ RUN yarn config set "strict-ssl" false && yarn
 # Bundle app source
 COPY . .
 # expose port 4000 so it can be mapped by docker daemon
-EXPOSE 4000
-# dev, watch mode
+EXPOSE 4000 9229
+# dev, watch moe
 CMD [ "yarn", "start:watch" ]
