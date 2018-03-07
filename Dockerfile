@@ -1,7 +1,7 @@
 FROM node:8.9.4
 
 LABEL name="ESA-graphql-node" \ 
-      maintainer="Han Li<han.li@capitalone.com" \
+      maintainer="LeOn Li<vcfvct@gmail.com>" \
 	    version="1.0" \
     	description="Eevent scheduling app with nodejs, graphql, typeorm"
 # Create app directory
