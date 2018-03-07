@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "integration of typeorm and graphql(apollo) for ESA",
   "main": "index.ts",
-  "author": "Han Li <Han.Li@capitalone.com>",
+  "author": "LeOn Li <vcfvct@gmail.com>",
   "license": "MIT",
   "private": false,
   "scripts": {
